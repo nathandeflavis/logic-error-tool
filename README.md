@@ -1,5 +1,6 @@
 # logic-error-tool
 A tool developed to detect and correct logic errors in computer programming
+
 The key deliverable of my Final Year Project at University of London was LogicErrorTool (LET), a Java Swing application with GUI forms for different types of logic error. Via a form, the end user specifies a model of a computer program. LET checks the model for logic error, and suggests one or more corrections. The end user can select a correction for LET to implement.
 LET supports the following types of logic error:
 - **Infinite loop/recursion, count-controlled by a variable whose runtime values form an arithmetic/geometric sequence.** LET uses a form of static code analysis, where it infers the finiteness of a loop/recursive method from its parameters without needing to run it.
