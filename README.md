@@ -29,3 +29,85 @@ LET supports the following types of logic error:
 ![LET finds a null pointer error and suggests a correction.](https://github.com/nathandeflavis/logic-error-tool/assets/92447278/9ba3d5d3-928a-49ab-96c4-a212fc88ba9d)
 
 I would have liked the project to be broader in scope. However, I was pleased with what I managed to achieve in the time available.
+
+# User guide
+The structure of this guide was adapted from Dawson (2015, pp. 233-234).
+
+## Overview of software
+This software detects and corrects logic errors in models of object-oriented programs. It is intended especially for Java developers but may benefit developers programming in other languages.
+## Minimum hardware requirements
+Storage requirements may vary but at least 128MB of available RAM and 2MB of available hard drive capacity are recommended. A Java-compatible desktop operating system is required.
+## Installing software
+Only the Java Runtime Environment (JRE) (version 8 or later) needs to be installed to run the software. The JRE is downloadable from https://www.java.com/inc/BrowserRedirect1.jsp?locale=en.
+## Starting software
+To start the software:
+- Navigate to the directory ‘NathanDeFlavis_120322787_CO3320_AdditionalMaterial’ > ‘LogicErrorTool’ > ‘dist’ and double-click the ‘LogicErrorTool.jar’ file.
+- Alternatively, the software can be run at the command line. The ‘README.txt’ file, in the same directory, explains how to do this.
+
+## Using software
+### Infinite loop/recursion error
+1. Enter integer values for ‘a’, ‘b’, and ‘d’ / ‘r’.
+2. Select a relation operator for ‘R’.
+3. Select an arithmetic operator between ‘i’ and ‘d’ / ‘r’.
+4. Click ‘Check’.
+
+If loop/recursion is finite:
+5. Click ‘OK’.
+
+If loop/recursion is infinite:
+5. Select a correction.
+6. Click ‘Change’.
+
+### Arithmetic expression error
+1. Add instructions as follows:
+a. Select an operation under ‘Operation’. NB: The ‘RESULT’ variable refers to
+the result of the last instruction. The ‘STORE’ operation temporarily stores a
+copy of ‘RESULT’ in the ‘STORAGE’ variable.
+b. Enter expressions for ‘a’ and ‘b’.
+c. Click ‘Add’.
+2. Enter an arithmetic expression that the instructions are expected to generate.
+3. Click ‘Check’.
+
+If the arithmetic expression is correct:
+4. Click ‘OK’.
+
+If the arithmetic expression is incorrect:
+4. Click ‘Yes’.
+
+### Off-by-one error
+1. Enter values for ‘Start position’, ‘End position’, ‘a’, and ‘b’.
+2. Select a relational operator for ‘R’.
+3. Select a value for ‘d’.
+4. Click ‘Check’.
+
+If the loop is correct:
+5. Click ‘OK’.
+
+If the loop is incorrect:
+5. Select a correction.
+6. Click ‘Change’.
+
+### Null pointer error
+1. Add variables as follows:
+a. Enter a value for ‘Name’.
+b. Click ‘Add’ under ‘Name’.
+2. To add constructors other than the default constructor, click ‘Add’ under
+‘Constructors’.
+3. Add initialisations of a variable in a constructor as follows:
+a. Select a variable.
+b. Select a constructor.
+c. Enter a value for ‘Selected variable: Value’. d. Click ‘Add’ below ‘Selected variable: Value’.
+4. Click ‘Check’.
+
+If there is no null pointer error:
+5. Click ‘OK’.
+
+If there is a null pointer error:
+5. Click ‘Yes’.
+
+## Ending and uninstalling software
+To stop running the software, close the ‘LogicErrorTool’ window.
+Only the JRE can be uninstalled. To uninstall the JRE, see https://www.java.com/en/uninstall/.
+
+# Reference list
+Dawson, C 2015, *Projects in Computing and Information Systems: A Student's Guide*, 3rd edn, Pearson Education Ltd, Harlow
