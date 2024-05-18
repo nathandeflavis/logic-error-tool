@@ -31,9 +31,16 @@ LET supports the following types of logic error:
 I would have liked the project to be broader in scope. However, I was pleased with what I managed to achieve in the time available.
 
 # Video demonstration
-https://github.com/nathandeflavis/logic-error-tool/assets/92447278/340f3ef8-b357-41fe-ae7d-3bc3fcf28ddd
 
-https://github.com/nathandeflavis/logic-error-tool/assets/92447278/03127b7b-f4ef-4a9f-b057-45e02764646f
+https://github.com/nathandeflavis/logic-error-tool/assets/92447278/3cd70bd3-91b4-44aa-a512-2b184cd274f6
+
+https://github.com/nathandeflavis/logic-error-tool/assets/92447278/5323b4da-a3aa-47b5-9ae4-e050e2f1c797
+
+https://github.com/nathandeflavis/logic-error-tool/assets/92447278/863796b9-78f5-4b26-b22e-d416555c3149
+
+https://github.com/nathandeflavis/logic-error-tool/assets/92447278/4f903856-159e-4fdd-9f8d-b932b7d7ca4a
+
+https://github.com/nathandeflavis/logic-error-tool/assets/92447278/095d2850-46a5-4a46-a3fa-4c9b79af7818
 
 # User guide
 The structure of this guide was adapted from Dawson (2015, pp. 233-234).
@@ -46,7 +53,7 @@ Storage requirements may vary but at least 128MB of available RAM and 2MB of ava
 Only the Java Runtime Environment (JRE) (version 8 or later) needs to be installed to run the software. The JRE is downloadable from https://www.java.com/inc/BrowserRedirect1.jsp?locale=en.
 ## Starting software
 To start the software:
-- Navigate to the directory ‘NathanDeFlavis_120322787_CO3320_AdditionalMaterial’ > ‘LogicErrorTool’ > ‘dist’ and double-click the ‘LogicErrorTool.jar’ file.
+- Unzip the ‘dist.zip’ file, navigate to the 'dist' directory and double-click the ‘LogicErrorTool.jar’ file.
 - Alternatively, the software can be run at the command line. The ‘README.txt’ file, in the same directory, explains how to do this.
 
 ## Using software
