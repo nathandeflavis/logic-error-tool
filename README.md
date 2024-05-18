@@ -30,6 +30,11 @@ LET supports the following types of logic error:
 
 I would have liked the project to be broader in scope. However, I was pleased with what I managed to achieve in the time available.
 
+# Video demonstration
+https://github.com/nathandeflavis/logic-error-tool/assets/92447278/340f3ef8-b357-41fe-ae7d-3bc3fcf28ddd
+
+https://github.com/nathandeflavis/logic-error-tool/assets/92447278/03127b7b-f4ef-4a9f-b057-45e02764646f
+
 # User guide
 The structure of this guide was adapted from Dawson (2015, pp. 233-234).
 
@@ -114,3 +119,4 @@ Known issues are on [this repository's 'Issues' tab](https://github.com/nathande
 
 # Reference list
 Dawson, C 2015, *Projects in Computing and Information Systems: A Student's Guide*, 3rd edn, Pearson Education Ltd, Harlow
+
