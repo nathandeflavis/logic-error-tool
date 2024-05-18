@@ -109,5 +109,8 @@ If there is a null pointer error:
 To stop running the software, close the ‘LogicErrorTool’ window.
 Only the JRE can be uninstalled. To uninstall the JRE, see https://www.java.com/en/uninstall/.
 
+## Known issues
+Known issues are on [this repository's 'Issues' tab](/issues). Any other issues encountered can be reported there.
+
 # Reference list
 Dawson, C 2015, *Projects in Computing and Information Systems: A Student's Guide*, 3rd edn, Pearson Education Ltd, Harlow
