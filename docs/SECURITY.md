@@ -10,7 +10,7 @@
 
 ## Reporting a Vulnerability
 ### Where do I go?
-Go to [this repository's 'Security' tab](https://github.com/nathandeflavis/logic-error-tool/security) and click 'Report a vulnerability'.
+You can report a vulnerability [here](https://github.com/nathandeflavis/logic-error-tool/security/advisories/new).
 
 ### How often can I expect to get an update on a reported vulnerability?
 Periodically throughout the year.
