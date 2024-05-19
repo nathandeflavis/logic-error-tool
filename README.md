@@ -1,5 +1,5 @@
 # logic-error-tool
-A tool to detect and correct logic errors in models of computer programs
+A tool to detect and correct logic errors in models of computer programs.
 
 # What does the project do?
 The key deliverable of my independent Final Year Project at University of London was LogicErrorTool (LET), a Java Swing application with GUI forms for different types of logic error. Via a form, the end user specifies a model of a computer program. LET checks the model for logic error, and suggests one or more corrections. The end user can select a correction for LET to implement. I followed Agile evolutionary prototyping.
