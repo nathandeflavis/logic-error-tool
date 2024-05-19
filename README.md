@@ -1,6 +1,7 @@
 # logic-error-tool
 A tool to detect and correct logic errors in models of computer programs
 
+# What does the project do?
 The key deliverable of my independent Final Year Project at University of London was LogicErrorTool (LET), a Java Swing application with GUI forms for different types of logic error. Via a form, the end user specifies a model of a computer program. LET checks the model for logic error, and suggests one or more corrections. The end user can select a correction for LET to implement. I followed Agile evolutionary prototyping.
 
 LET supports the following types of logic error:
@@ -30,100 +31,29 @@ LET supports the following types of logic error:
 
 I would have liked the project to be broader in scope. However, I was pleased with what I managed to achieve in the time available.
 
-# Video demonstration
+# Why is the project useful?
+Software is commonly plagued by logic errors, which cause it to behave incorrectly. These errors may not be recognised as such until long after the software is first released. Compared to detection, there has been relatively little use of tools to correct logic errors.
 
-https://github.com/nathandeflavis/logic-error-tool/assets/92447278/3cd70bd3-91b4-44aa-a512-2b184cd274f6
+This field is important because defects in mission-critical software can spell disaster, like the Ariane 5 incident (Garfinkel 2005). Correct logic is arguably more of a priority than correct syntax because syntax errors are more likely to be addressed than logic errors.
 
-https://github.com/nathandeflavis/logic-error-tool/assets/92447278/5323b4da-a3aa-47b5-9ae4-e050e2f1c797
+Both source code compilers and Integrated Development Environments (IDEs) tend to ignore logic errors, which may not manifest themselves until runtime. Even with methods to trace the source of a logic error, the process of manually detecting logic errors is time-consuming for the programmer and prone to human error.
 
-https://github.com/nathandeflavis/logic-error-tool/assets/92447278/863796b9-78f5-4b26-b22e-d416555c3149
+LET can statically analyse a model of a computer program to determine whether it would behave as expected without needing to run it. By implementing an adjustment in the event of a logic error, the program would at least be more likely to behave as expected.
 
-https://github.com/nathandeflavis/logic-error-tool/assets/92447278/4f903856-159e-4fdd-9f8d-b932b7d7ca4a
+LET has been effective for simple program models. It is most useful for novice programmers, who when encountering a logic error may not know how to recover from it. These users would benefit from the guidance provided by the system.
 
-https://github.com/nathandeflavis/logic-error-tool/assets/92447278/095d2850-46a5-4a46-a3fa-4c9b79af7818
+Overall, the project has been a valuable learning experience in developing research skills, managing time more effectively and thinking laterally to solve problems.
 
-# User guide
-The structure of this guide was adapted from Dawson (2015, pp. 233-234).
+# How can users can get started with the project?
+Please see the 'Overview of software' and 'Using software' sections of [the User Guide](https://github.com/nathandeflavis/logic-error-tool/wiki/User-Guide).
 
-## Overview of software
-This software detects and corrects logic errors in models of object-oriented programs. It is intended especially for Java developers but may benefit developers programming in other languages.
-## Minimum hardware requirements
-Storage requirements may vary but at least 128MB of available RAM and 2MB of available hard drive capacity are recommended. A Java-compatible desktop operating system is required.
-## Installing software
-Only the Java Runtime Environment (JRE) (version 8 or later) needs to be installed to run the software. The JRE is downloadable from https://www.java.com/inc/BrowserRedirect1.jsp?locale=en.
-## Starting software
-To start the software:
-- Unzip the ‘dist.zip’ file, navigate to the 'dist' directory and double-click the ‘LogicErrorTool.jar’ file.
-- Alternatively, the software can be run at the command line. The ‘README.txt’ file, in the same directory, explains how to do this.
+# Where can users can get help with the project?
+Please go to [this repository's 'Wiki' tab](https://github.com/nathandeflavis/logic-error-tool/wiki).
 
-## Using software
-### Infinite loop/recursion error
-1. Enter integer values for ‘a’, ‘b’, and ‘d’ / ‘r’.
-2. Select a relation operator for ‘R’.
-3. Select an arithmetic operator between ‘i’ and ‘d’ / ‘r’.
-4. Click ‘Check’.
+# Who maintains and contributes to the project?
+@nathandeflavis
 
-If loop/recursion is finite:
-5. Click ‘OK’.
-
-If loop/recursion is infinite:
-5. Select a correction.
-6. Click ‘Change’.
-
-### Arithmetic expression error
-1. Add instructions as follows:
-a. Select an operation under ‘Operation’. NB: The ‘RESULT’ variable refers to
-the result of the last instruction. The ‘STORE’ operation temporarily stores a
-copy of ‘RESULT’ in the ‘STORAGE’ variable.
-b. Enter expressions for ‘a’ and ‘b’.
-c. Click ‘Add’.
-2. Enter an arithmetic expression that the instructions are expected to generate.
-3. Click ‘Check’.
-
-If the arithmetic expression is correct:
-4. Click ‘OK’.
-
-If the arithmetic expression is incorrect:
-4. Click ‘Yes’.
-
-### Off-by-one error
-1. Enter values for ‘Start position’, ‘End position’, ‘a’, and ‘b’.
-2. Select a relational operator for ‘R’.
-3. Select a value for ‘d’.
-4. Click ‘Check’.
-
-If the loop is correct:
-5. Click ‘OK’.
-
-If the loop is incorrect:
-5. Select a correction.
-6. Click ‘Change’.
-
-### Null pointer error
-1. Add variables as follows:
-a. Enter a value for ‘Name’.
-b. Click ‘Add’ under ‘Name’.
-2. To add constructors other than the default constructor, click ‘Add’ under
-‘Constructors’.
-3. Add initialisations of a variable in a constructor as follows:
-a. Select a variable.
-b. Select a constructor.
-c. Enter a value for ‘Selected variable: Value’. d. Click ‘Add’ below ‘Selected variable: Value’.
-4. Click ‘Check’.
-
-If there is no null pointer error:
-5. Click ‘OK’.
-
-If there is a null pointer error:
-5. Click ‘Yes’.
-
-## Ending and uninstalling software
-To stop running the software, close the ‘LogicErrorTool’ window.
-Only the JRE can be uninstalled. To uninstall the JRE, see https://www.java.com/en/uninstall/.
-
-## Known issues
-Known issues are on [this repository's 'Issues' tab](https://github.com/nathandeflavis/logic-error-tool/issues). Any other issues encountered can be reported there.
+README adapted from [GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes).
 
 # Reference list
-Dawson, C 2015, *Projects in Computing and Information Systems: A Student's Guide*, 3rd edn, Pearson Education Ltd, Harlow
-
+Garfinkel, S 2005, *History’s Worst Software Bugs*, viewed 29 January 2019, https://www.wired.com/2005/11/historys-worst-software-bugs/?currentPage=all
