@@ -8,6 +8,7 @@ LET supports the following types of logic error:
 - **Infinite loop/recursion, count-controlled by a variable whose runtime values form an arithmetic/geometric sequence.** LET uses a form of static code analysis, where it infers the finiteness of a loop/recursive method from its parameters without needing to run it.
 
 ![The end user inputs a loop.](https://github.com/nathandeflavis/logic-error-tool/assets/92447278/cdfbf4c8-e269-455a-9276-bb7fdee38ec4)
+
 LET on Apple macOS.
 
 ![LET finds an infinite loop error and suggests corrections.](https://github.com/nathandeflavis/logic-error-tool/assets/92447278/2b58e86b-94b7-4732-9d84-72b5445848fa)
