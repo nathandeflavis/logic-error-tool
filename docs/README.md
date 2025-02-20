@@ -56,4 +56,4 @@ Please go to [this repository's 'Wiki' tab](https://github.com/nathandeflavis/lo
 README adapted from [GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes).
 
 # Reference list
-Garfinkel, S 2005, *History’s Worst Software Bugs*, viewed 29 January 2019, https://www.wired.com/2005/11/historys-worst-software-bugs/?currentPage=all
+Garfinkel, S 2005, [*History’s Worst Software Bugs*](https://www.wired.com/2005/11/historys-worst-software-bugs/?currentPage=all), viewed 29 January 2019
