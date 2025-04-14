@@ -2,7 +2,7 @@
 A tool to detect and correct logic errors in models of computer programs.
 
 # What does the project do?
-The key deliverable of my independent 'Final Year Project' at University of London was LogicErrorTool (LET), a Java Swing application with GUI forms for different types of logic error. Via a form, the end user specifies a model of a computer program. LET checks the model for logic error, and suggests one or more corrections. The end user can select a correction for LET to implement. I followed Agile evolutionary prototyping.
+In my independent 'Final Year Project' for my degree programme, the key deliverable was LogicErrorTool (LET), a Java Swing application with GUI forms for different types of logic error. Via a form, the end user specifies a model of a computer program. LET checks the model for a specified logic error and suggests one or more corrections. The end user can select a correction for LET to implement.
 
 LET supports the following types of logic error:
 - **Infinite loop/recursion, count-controlled by a variable whose runtime values form an arithmetic/geometric sequence.** LET uses a form of static code analysis, where it infers the finiteness of a loop/recursive method from its parameters without needing to run it.
@@ -31,7 +31,7 @@ LET in Apple macOS.
 
 ![LET finds a null pointer error and suggests a correction.](https://github.com/nathandeflavis/logic-error-tool/assets/92447278/9ba3d5d3-928a-49ab-96c4-a212fc88ba9d)
 
-I would have liked the project to be broader in scope. However, I was pleased with what I managed to achieve in the time available.
+I would have liked the project to be broader in scope. However, I was pleased with what I managed to achieve in the time available. I followed an Agile evolutionary prototyping methodology.
 
 # Why is the project useful?
 Software is commonly plagued by logic errors, which cause it to behave incorrectly. These errors may not be recognised as such until long after the software is first released. Compared to detection, there has been relatively little use of tools to correct logic errors.
