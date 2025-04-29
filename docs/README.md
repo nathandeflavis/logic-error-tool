@@ -31,7 +31,7 @@ LET in Apple macOS.
 
 ![LET finds a null pointer error and suggests a correction.](https://github.com/nathandeflavis/logic-error-tool/assets/92447278/9ba3d5d3-928a-49ab-96c4-a212fc88ba9d)
 
-I would have liked the project to be broader in scope. However, I was pleased with what I managed to achieve in the time available. I followed an Agile evolutionary prototyping methodology.
+I would have liked the project to be broader in scope. However, I was pleased with what I managed to achieve in the time available.
 
 # Why is the project useful?
 Software is commonly plagued by logic errors, which cause it to behave incorrectly. These errors may not be recognised as such until long after the software is first released. Compared to detection, there has been relatively little use of tools to correct logic errors.
