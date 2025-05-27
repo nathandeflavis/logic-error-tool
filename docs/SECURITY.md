@@ -10,7 +10,7 @@
 
 ## Reporting a Vulnerability
 ### Where do I go?
-You can report a vulnerability [here](https://github.com/nathangjdf/logic-error-tool/security/advisories/new).
+You can report a vulnerability [here](https://github.com/nathandeflavis/logic-error-tool/security/advisories/new).
 
 ### How often can I expect to get an update on a reported vulnerability?
 Periodically throughout the year.
