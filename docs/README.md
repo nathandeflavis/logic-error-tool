@@ -44,7 +44,7 @@ LET can statically analyse a model of a computer program to determine whether it
 
 LET has been effective for simple program models. It is most useful for novice programmers, who when encountering a logic error may not know how to recover from it. These users would benefit from the guidance provided by the system.
 
-Overall, the project has been a valuable learning experience in developing research skills, managing time more effectively and thinking laterally to solve problems.
+Overall, the project has been a valuable learning experience in developing research skills, managing time more effectively and thinking laterally to solve challenges.
 
 # How can users can get started with the project?
 Please see the 'Overview of software' and 'Using software' sections of [the User Guide](https://github.com/nathandeflavis/logic-error-tool/wiki/User-Guide).
