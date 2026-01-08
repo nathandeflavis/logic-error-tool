@@ -55,7 +55,13 @@ Please go to [this repository's 'Wiki' tab](https://github.com/nathandeflavis/lo
 # Who maintains and contributes to the project?
 @nathandeflavis
 
-README adapted from [GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes).
-
 # Reference list
 Garfinkel, S 2005, [*History’s Worst Software Bugs*](https://www.wired.com/2005/11/historys-worst-software-bugs/?currentPage=all), viewed 29 January 2019
+
+# Disclaimer
+Use of this repository's software is at the user's own risk. The software's author(s) disclaim liability for any damages arising from the software's use.
+
+# Credit
+README adapted from [GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes).
+
+Disclaimer adapted from [No Responsibility Disclaimer Examples and A Template - Usercentrics](https://usercentrics.com/guides/website-disclaimers/no-responsibility-disclaimer/).
